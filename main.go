@@ -22,7 +22,6 @@ func main() {
 	scheduler := pkg.NewScheduler()
 	scheduler.Start()
 	defer scheduler.Stop()
-
 	log.Println("Metrics collection scheduler started")
 
 	// Create API handler
